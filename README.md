@@ -14,7 +14,7 @@
 
 - 本组件是面向React Native提供热更新功能的组件，建议结合[Update服务](http://update.reactnative.cn/)使用。
 - 本组件解决了android studio3.0环境下的so包编译问题
-- 详细文档请访问[react-native-pushy](https://github.com/reactnativecn/react-native-pushy/edit/master/README.md)。
+- 详细文档请访问[react-native-pushy](https://github.com/reactnativecn/react-native-pushy)。
 
 ## 安装使用
 
