@@ -1,4 +1,4 @@
-# react-native-gufei-pushy
+# react-native-pushy
 
 [![npm version](https://badge.fury.io/js/react-native-gufei-pushy.svg)](https://badge.fury.io/js/react-native-gufei-pushy)
 [![npm](https://img.shields.io/npm/dt/react-native-gufei-pushy.svg)](https://www.npmjs.com/package/react-native-gufei-pushy)
