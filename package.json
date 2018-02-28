@@ -81,5 +81,5 @@
     "prepublish": "babel local-cli/src --out-dir local-cli/lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "5.0.0"
+  "version": "1.0.1"
 }
