@@ -1,6 +1,6 @@
 {
   "name": "react-native-gufei-pushy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "本组件是面向React Native提供热更新功能的组件，建议结合[Update服务](http://update.reactnative.cn/)使用。",
   "main": "index.js",
   "directories": {
