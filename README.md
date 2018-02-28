@@ -17,7 +17,7 @@
 
 ## 安装使用
 
-- 详细文档请访问[react-native-pushy](https://github.com/reactnativecn/react-native-pushy)。
+- 详细文档请访问 [react-native-pushy](https://github.com/reactnativecn/react-native-pushy)
 - android studio3.0环境下的build配置如下：
 1. 将android/src/main/jni目录改为android/src/main/cpp
 2. 拷贝CMakeLists.txt到android目录下
