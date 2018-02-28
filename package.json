@@ -1,85 +1,22 @@
 {
-  "_from": "react-native-update@^5.0.0",
-  "_id": "react-native-update@5.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-yyqP7sB260JJs38wbg/LLv5d++oNkjeKyluff5LdLg3aHalwPk2eV4X2DCY5z7JUj0RI/pYy/a0KmU8Gghqm3Q==",
-  "_location": "/react-native-update",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "react-native-update@^5.0.0",
-    "name": "react-native-update",
-    "escapedName": "react-native-update",
-    "rawSpec": "^5.0.0",
-    "saveSpec": null,
-    "fetchSpec": "^5.0.0"
+  "name": "react-native-gufei-pushy",
+  "version": "1.0.0",
+  "description": "本组件是面向React Native提供热更新功能的组件，建议结合[Update服务](http://update.reactnative.cn/)使用。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/react-native-update/-/react-native-update-5.0.0.tgz",
-  "_shasum": "3d80e50bf08037c208b3ee53457887f93ab2cd16",
-  "_spec": "react-native-update@^5.0.0",
-  "_where": "/Users/apple/learnta/project/learntask2rdgen.git",
-  "author": {
-    "name": "reactnativecn"
-  },
-  "bugs": {
-    "url": "https://github.com/reactnativecn/react-native-pushy/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "cli-arguments": "^0.2.1",
-    "fs-promise": "^0.4.1",
-    "ipa-metadata": "^1.4.0",
-    "isomorphic-fetch": "^2.2.1",
-    "mkdir-recursive": "^0.2.1",
-    "node-apk-parser": "^0.2.3",
-    "progress": "^1.1.8",
-    "read": "^1.0.7",
-    "request": "^2.69.0",
-    "rimraf": "^2.5.2",
-    "yauzl": "2.4.1",
-    "yazl": "2.3.0"
-  },
-  "deprecated": false,
-  "description": "react-native hot update",
-  "devDependencies": {
-    "babel-cli": "^6.5.1",
-    "babel-eslint": "^4.1.6",
-    "babel-plugin-syntax-async-functions": "^6.5.0",
-    "babel-plugin-syntax-object-rest-spread": "^6.5.0",
-    "babel-plugin-transform-async-to-generator": "^6.3.13",
-    "babel-plugin-transform-es2015-arrow-functions": "^6.5.2",
-    "babel-plugin-transform-es2015-destructuring": "^6.3.15",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.3.16",
-    "babel-plugin-transform-es2015-parameters": "^6.5.0",
-    "babel-plugin-transform-es2015-spread": "^6.5.2",
-    "babel-plugin-transform-object-rest-spread": "^6.5.0",
-    "babel-plugin-transform-strict-mode": "^6.5.2"
-  },
-  "homepage": "https://github.com/reactnativecn/react-native-pushy#readme",
-  "keywords": [
-    "react-native",
-    "ios",
-    "android",
-    "update"
-  ],
-  "license": "BSD-3-Clause",
-  "main": "lib/index.js",
-  "name": "react-native-update",
-  "peerDependencies": {
-    "react-native": ">=0.27.0"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactnativecn/react-native-pushy.git"
+    "url": "npm init -y"
   },
-  "scripts": {
-    "prepublish": "babel local-cli/src --out-dir local-cli/lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.0.1"
+  "keywords": [
+    "pushy"
+  ],
+  "author": "gufei",
+  "license": "ISC"
 }
