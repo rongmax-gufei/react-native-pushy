@@ -19,7 +19,7 @@
 
 - 详细文档请访问[react-native-pushy](https://github.com/reactnativecn/react-native-pushy)。
 - android studio3.0环境下的build配置如下：
-1、将android/src/main/jni目录改为android/src/main/cpp
-2、拷贝CMakeLists.txt到android目录下
-3、覆盖android/build.gradle文件
-4、点击AndroidStudio工具栏的build/Make Project，在android/build/intermediates/cmake自动生成对应的so文件 
+1. 将android/src/main/jni目录改为android/src/main/cpp
+2. 拷贝CMakeLists.txt到android目录下
+3. 覆盖android/build.gradle文件
+4. 点击AndroidStudio工具栏的build/Make Project，在android/build/intermediates/cmake自动生成对应的so文件 
