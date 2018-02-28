@@ -22,4 +22,5 @@
 1. 将android/src/main/jni目录改为android/src/main/cpp
 2. 拷贝CMakeLists.txt到android目录下
 3. 覆盖android/build.gradle文件
-4. 点击AndroidStudio工具栏的build/Make Project，在android/build/intermediates/cmake自动生成对应的so文件 
+4. 点击AndroidStudio工具栏的build/Make Project，在android/build/intermediates/cmake自动生成对应的so文件
+- 不想配置ndk环境自己编译.so的文件童鞋，可以在android/libs/cmake目录下载编译好的so文件直接使用。
