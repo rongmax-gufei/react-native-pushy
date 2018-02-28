@@ -14,13 +14,12 @@
 
 - 本组件是面向React Native提供热更新功能的组件，建议结合[Update服务](http://update.reactnative.cn/)使用。
 - 本组件解决了android studio3.0环境下的so包编译问题
-- 详细文档请访问[react-native-pushy](https://github.com/reactnativecn/react-native-pushy)。
 
 ## 安装使用
 
- `npm install --save react-native-gufei-pushy`
-
-Then link with:
-
- `react-native link react-native--gufei-pushy`
- 
+- 详细文档请访问[react-native-pushy](https://github.com/reactnativecn/react-native-pushy)。
+- android studio3.0环境下的build配置如下：
+1、将android/src/main/jni目录改为android/src/main/cpp
+2、拷贝CMakeLists.txt到android目录下
+3、覆盖android/build.gradle文件
+4、点击AndroidStudio工具栏的build/Make Project，在android/build/intermediates/cmake自动生成对应的so文件 
