@@ -19,7 +19,7 @@
 
 - 详细文档请访问 [react-native-pushy](https://github.com/reactnativecn/react-native-pushy)
 - android studio3.0环境下的build配置如下：
-1. 删除住工程android/gradle.properties中的android.useDeprecatedNdk=true，没添加的忽略
+1. 删除主工程android/gradle.properties中的android.useDeprecatedNdk=true，没添加的忽略
 2. 将android/src/main/jni目录改为android/src/main/cpp
 3. 拷贝CMakeLists.txt到android目录下
 4. 覆盖android/build.gradle文件
